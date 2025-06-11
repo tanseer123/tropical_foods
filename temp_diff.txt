@@ -1,0 +1,12 @@
+<div
+                  key={product.id}
+                  className="fade-in bg-white rounded-2xl shadow hover:shadow-xl transition-transform hover:-translate-y-2 overflow-hidden group"
+                  style={{ animationDelay: `${index * 100}ms` }}
+                >
+=======
+              {filteredProducts.map((product, index) => (
+                <div
+                  key={product.id}
+                  className="fade-in bg-white rounded-3xl shadow-lg hover:shadow-2xl transition-transform hover:-translate-y-3 overflow-hidden group"
+                  style={{ animationDelay: `${index * 100}ms` }}
+                >
